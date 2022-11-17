@@ -1,0 +1,56 @@
+.benefactor-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  font-size: 2rem;
+  font-family: 'Futura Md BT';
+  box-sizing: border-box;
+}
+
+.event-name {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.benefactor-name {
+  color: #C693FF;
+}
+
+.benefactor-copy {
+  display: flex;
+  flex-direction: column;
+}
+
+.donate-cta {
+  position: relative;
+  display: flex;
+  color: #fff;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem 2.4rem 0.25rem 1.25rem;
+  margin: 0 1rem 0 2rem;
+  z-index: 0;
+}
+
+.donate-cta:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #8A58C1;
+  transform-origin: 100% 0;
+  transform: skew(-20deg);
+  z-index: -2;
+}
+
+.donate-command {
+  margin: 0 0.6rem;
+  color: #93ff56;
+}
